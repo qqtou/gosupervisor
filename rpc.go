@@ -1,10 +1,11 @@
 package gosupervisor
 
-type SupervisorRpc struct {
-	Url string
+// SupervisorRPC ...
+type SupervisorRPC struct {
+	URL string
 }
 
-func New(url string) *SupervisorRpc {
-	return &SupervisorRpc{Url: url}
+// New ...
+func New(url string) *SupervisorRPC {
+	return &SupervisorRPC{URL: url}
 }
-
